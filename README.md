@@ -1,2 +1,3 @@
 # SOC_HW
-SOC_HomeWork
+系統經踭設計實習作業區
+電子三甲 李步剛
