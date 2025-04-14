@@ -19,13 +19,22 @@
 BTN1：僅顯示右側 LED 動畫（左側關閉）
 BTN4：僅顯示左側 LED 動畫（右側關閉）
 
+#### 按鈕位置：
+![IMG_1793](https://github.com/user-attachments/assets/fdeaa802-a111-4467-9945-d5e94ffa74e4)
+
 ### 預設模式：
 未按任何按鈕時，系統以中等速度顯示對稱動畫效果。
 
+## 硬體
+開發板： EGO-XZ7（Zynq-7000 SoC，型號：XC7Z020CLG484-1）
+處理器： ARM Cortex-A9
+
+## 軟體
+Xilinx Vivado 2018：用於硬體設計與綜合。
+Xilinx SDK：用於開發軟體並控制 PS。
+
 ## Block Design
 ![螢幕擷取畫面 2025-04-15 015145](https://github.com/user-attachments/assets/43f11925-d596-450a-b5f4-6761b64da03b)
-
-
 
 ## 實作示範影片
 https://github.com/user-attachments/assets/58d20088-b7c5-4e95-a544-1f9001d7ad20
