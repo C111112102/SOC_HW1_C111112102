@@ -30,6 +30,7 @@ S5（右側關閉）：僅顯示右側 LED 動畫
 
 ## 硬體
 開發板： EGO-XZ7（Zynq-7000 SoC，型號：XC7Z020CLG484-1）
+
 處理器： ARM Cortex-A9
 
 ## 軟體
