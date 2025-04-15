@@ -35,6 +35,7 @@ S5（右側關閉）：僅顯示右側 LED 動畫
 
 ## 軟體
 Xilinx Vivado 2018：用於硬體設計與綜合。
+
 Xilinx SDK：用於開發軟體並控制 PS。
 
 ## Block Design
