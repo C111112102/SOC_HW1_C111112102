@@ -58,15 +58,15 @@ int main()
         btn_state = XGpio_DiscreteRead(&BTN_XGpio, 1);
 
         if (btn_state & 0x04) {
-        	delay_time = FAST_DELAY; // 按鈕 0 被按
+        	delay_time = FAST_DELAY; // 按鈕 S7 被按
             LED_out = LED_num | LED_num1;
         }else if (btn_state & 0x08) {
-            delay_time = SLOW_DELAY; // 按鈕 1 被按
+            delay_time = SLOW_DELAY; // 按鈕 S8 被按
             LED_out = LED_num | LED_num1;
         }else if (btn_state & 0x02) {
-            LED_out = LED_num1;
+            LED_out = LED_num1; // 按鈕 S9 被按
         }else if (btn_state & 0x10) {
-            LED_out = LED_num;
+            LED_out = LED_num; // 按鈕 S5 被按
         }else {
             delay_time = DEFAULT_DELAY;
             LED_out = LED_num | LED_num1;
