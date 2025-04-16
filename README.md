@@ -23,7 +23,8 @@ S9（左側關閉）：僅顯示左側 LED 動畫
 S5（右側關閉）：僅顯示右側 LED 動畫
 
 #### 按鈕位置：
-![IMG_1793](https://github.com/user-attachments/assets/fdeaa802-a111-4467-9945-d5e94ffa74e4)
+![螢幕擷取畫面 2025-04-16 154733](https://github.com/user-attachments/assets/2e0104cc-fa2c-47fa-b460-c925b8fdcb61)
+
 
 ### 預設模式：
 未按任何按鈕時，系統以中等速度顯示對稱動畫效果。
